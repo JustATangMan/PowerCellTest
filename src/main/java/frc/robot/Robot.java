@@ -10,6 +10,7 @@ package frc.robot;
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+import frc.robot.subsystems.ButtonMotor;
 import frc.robot.subsystems.Motor;
 
 /**
@@ -22,6 +23,7 @@ import frc.robot.subsystems.Motor;
 public class Robot extends TimedRobot {
 
   public static Motor m_mot = new Motor();
+  public static ButtonMotor m_butt = new ButtonMotor();
   public static OI m_oi = new OI();
 
   /**
